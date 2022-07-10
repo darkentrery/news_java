@@ -1,0 +1,26 @@
+version: "3.3"
+services:
+  springapp:
+    build: .
+    container_name: springapp
+    env_file:
+      - .env.dev
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres_s
+
+  postgres_s:
+    image: postgres:13.3
+    container_name: postgres_spring
+    volumes:
+      - postgres_spring:/var/lib/postgresql/data/
+    env_file:
+      - .env.dev
+    ports:
+      - 5433:5432
+
+
+
+volumes:
+  postgres_spring:

@@ -1,0 +1,148 @@
+body {
+    background: #2c2c2c;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    position: fixed;
+}
+
+aside img {
+    background: white;
+    weight: 100px;
+    float: left;
+
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: white;
+    display: block;
+    margin-top: 20px;
+    transition: all .3s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+aside ul .btn-info {
+    background: #d7b255;
+    font-size: 18px;
+}
+
+main .features {
+    float: left;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    width: 75%;
+    margin-left: 20%;
+}
+
+main .features h1 {
+    font-size: 50px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main .features h3 {
+    max-width: 60%;
+    margin: 20px auto
+}
+
+main .features p {max-width: 60%; margin: 20px auto}
+
+main .features .btn-warning {
+    background: #d7b255;
+    font-size: 18px;
+    list-style: none;
+}
+
+main .features .btn-page {
+    background: #d7b255;
+    font-size: 18px;
+    list-style: none;
+}
+
+main .features nav ul li {
+    align-items: center;
+    max-width: 80%;
+}
+
+main .features a {
+    list-style: none;
+    text-align: center;
+}
+
+main .features ul {
+    align-items: center;
+    max-width: 80%;
+}
+
+main .features .page-num {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    max-width: 80%;
+}
+
+main .features .form-control {
+    width: 400px;
+}
+
+main .features .form-add-image {
+    align-content: center;
+
+}
+
+main .features .btn-success {
+    background: #d7b255;
+    width: 100px;
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 60%;
+    margin: 20px;
+    margin-left: 20%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.list-pages {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}

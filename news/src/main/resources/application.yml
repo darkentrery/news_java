@@ -1,0 +1,22 @@
+spring:
+    datasource:
+#        url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/postgres}
+        url: jdbc:postgresql://localhost:5433/postgres?charSet=LATIN1
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+#        hikari:
+#            jdbc-url: jdbc:postgresql://localhost:5432/postgres
+#            username: postgres
+#            password: postgres
+    jpa:
+        show-sql: true
+        generate-ddl: true
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+#            dialect: org.hibernate.dialect.PostgreSQLDialect
+            ddl-auto: update
+
+
